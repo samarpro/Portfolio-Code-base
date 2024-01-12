@@ -1,6 +1,5 @@
 var slide = document.getElementById("slide_nav");
 function nav_open(){
-    console.log(slide);
     slide.style.right="0vw";
   }
 function nav_close(){
@@ -31,4 +30,39 @@ div.ontouchstart = function(e) {
   line5.style.width="40%"
 
 };
+function showMore(){
+  const tag = document.getElementById("extendedpage");
+  tag.style.display="block";
+}
+
+// code for animating last page 
+// using intersectionobserver for the purpose of observing the screen
+// and do work accordingly 
+
+// Getting all the things that are needeed to be animated
+const nodeList = document.querySelectorAll("#ani_mani");
+const parent_div = document.getElementById("selector");
+
+// Creating intersectionobserver => observe
+// The observer is a object
+// While IntersectionObserver() is a construtur function
+const observer = new IntersectionObserver(enteries =>{
+  enteries.forEach(entry =>{
+    if (entry.isIntersecting==true){
+      for (let i = 0; i < nodeList.length; i++) {
+        nodeList[i].style.animationPlayState = "running";
+      }      
+    }
+  })
+},
+{
+  threshold: 0.75,
+}
+)
+
+observer.observe(parent_div)
+
+
+
+
 

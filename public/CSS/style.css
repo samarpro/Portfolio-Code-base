@@ -41,7 +41,7 @@ body {
 html {
   font-size: 62.5%;
   overflow-x: hidden;
-  scroll-behavior: auto;
+  scroll-behavior: smooth;
 }
 
 /* Designing the sliding navbar */
@@ -844,135 +844,149 @@ body .skills .skills_bar .slider6 .line {
 
 @-webkit-keyframes glitch-effect {
   0% {
-    clip: rect(88px, 9999px, 80px, 0);
+    clip: rect(37px, 9999px, 74px, 0);
   }
   5% {
-    clip: rect(45px, 9999px, 6px, 0);
+    clip: rect(18px, 9999px, 17px, 0);
   }
   10% {
-    clip: rect(41px, 9999px, 74px, 0);
+    clip: rect(81px, 9999px, 63px, 0);
   }
   15% {
-    clip: rect(59px, 9999px, 71px, 0);
+    clip: rect(32px, 9999px, 85px, 0);
   }
   20% {
-    clip: rect(6px, 9999px, 1px, 0);
+    clip: rect(38px, 9999px, 15px, 0);
   }
   25% {
-    clip: rect(65px, 9999px, 81px, 0);
+    clip: rect(45px, 9999px, 84px, 0);
   }
   30% {
-    clip: rect(69px, 9999px, 16px, 0);
+    clip: rect(75px, 9999px, 74px, 0);
   }
   35% {
-    clip: rect(21px, 9999px, 74px, 0);
+    clip: rect(56px, 9999px, 78px, 0);
   }
   40% {
-    clip: rect(95px, 9999px, 83px, 0);
+    clip: rect(84px, 9999px, 2px, 0);
   }
   45% {
-    clip: rect(22px, 9999px, 23px, 0);
+    clip: rect(30px, 9999px, 12px, 0);
   }
   50% {
-    clip: rect(38px, 9999px, 66px, 0);
+    clip: rect(100px, 9999px, 3px, 0);
   }
   55% {
-    clip: rect(75px, 9999px, 93px, 0);
+    clip: rect(9px, 9999px, 47px, 0);
   }
   60% {
-    clip: rect(51px, 9999px, 26px, 0);
+    clip: rect(46px, 9999px, 64px, 0);
   }
   65% {
-    clip: rect(53px, 9999px, 36px, 0);
+    clip: rect(38px, 9999px, 93px, 0);
   }
   70% {
-    clip: rect(5px, 9999px, 59px, 0);
+    clip: rect(28px, 9999px, 51px, 0);
   }
   75% {
-    clip: rect(12px, 9999px, 39px, 0);
+    clip: rect(29px, 9999px, 59px, 0);
   }
   80% {
-    clip: rect(16px, 9999px, 70px, 0);
+    clip: rect(7px, 9999px, 7px, 0);
   }
   85% {
-    clip: rect(32px, 9999px, 25px, 0);
+    clip: rect(19px, 9999px, 75px, 0);
   }
   90% {
-    clip: rect(41px, 9999px, 65px, 0);
+    clip: rect(80px, 9999px, 5px, 0);
   }
   95% {
-    clip: rect(53px, 9999px, 51px, 0);
+    clip: rect(47px, 9999px, 81px, 0);
   }
   100% {
-    clip: rect(9px, 9999px, 78px, 0);
+    clip: rect(39px, 9999px, 15px, 0);
   }
 }
 
 @keyframes glitch-effect {
   0% {
-    clip: rect(88px, 9999px, 80px, 0);
+    clip: rect(37px, 9999px, 74px, 0);
   }
   5% {
-    clip: rect(45px, 9999px, 6px, 0);
+    clip: rect(18px, 9999px, 17px, 0);
   }
   10% {
-    clip: rect(41px, 9999px, 74px, 0);
+    clip: rect(81px, 9999px, 63px, 0);
   }
   15% {
-    clip: rect(59px, 9999px, 71px, 0);
+    clip: rect(32px, 9999px, 85px, 0);
   }
   20% {
-    clip: rect(6px, 9999px, 1px, 0);
+    clip: rect(38px, 9999px, 15px, 0);
   }
   25% {
-    clip: rect(65px, 9999px, 81px, 0);
+    clip: rect(45px, 9999px, 84px, 0);
   }
   30% {
-    clip: rect(69px, 9999px, 16px, 0);
+    clip: rect(75px, 9999px, 74px, 0);
   }
   35% {
-    clip: rect(21px, 9999px, 74px, 0);
+    clip: rect(56px, 9999px, 78px, 0);
   }
   40% {
-    clip: rect(95px, 9999px, 83px, 0);
+    clip: rect(84px, 9999px, 2px, 0);
   }
   45% {
-    clip: rect(22px, 9999px, 23px, 0);
+    clip: rect(30px, 9999px, 12px, 0);
   }
   50% {
-    clip: rect(38px, 9999px, 66px, 0);
+    clip: rect(100px, 9999px, 3px, 0);
   }
   55% {
-    clip: rect(75px, 9999px, 93px, 0);
+    clip: rect(9px, 9999px, 47px, 0);
   }
   60% {
-    clip: rect(51px, 9999px, 26px, 0);
+    clip: rect(46px, 9999px, 64px, 0);
   }
   65% {
-    clip: rect(53px, 9999px, 36px, 0);
+    clip: rect(38px, 9999px, 93px, 0);
   }
   70% {
-    clip: rect(5px, 9999px, 59px, 0);
+    clip: rect(28px, 9999px, 51px, 0);
   }
   75% {
-    clip: rect(12px, 9999px, 39px, 0);
+    clip: rect(29px, 9999px, 59px, 0);
   }
   80% {
-    clip: rect(16px, 9999px, 70px, 0);
+    clip: rect(7px, 9999px, 7px, 0);
   }
   85% {
-    clip: rect(32px, 9999px, 25px, 0);
+    clip: rect(19px, 9999px, 75px, 0);
   }
   90% {
-    clip: rect(41px, 9999px, 65px, 0);
+    clip: rect(80px, 9999px, 5px, 0);
   }
   95% {
-    clip: rect(53px, 9999px, 51px, 0);
+    clip: rect(47px, 9999px, 81px, 0);
   }
   100% {
-    clip: rect(9px, 9999px, 78px, 0);
+    clip: rect(39px, 9999px, 15px, 0);
   }
 }
+.extenedpage {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: none;
+}
+.extenedpage h1 {
+  text-align: center;
+  color: var(--orange);
+  font-size: 4rem;
+  letter-spacing: 3px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
 body .aboutpage {
   width: 100vw;
   min-height: 100vh;
@@ -1245,6 +1259,7 @@ body > .seventh .text h1 span:last-child {
   line-height: 60px;
   border-radius: 50%;
   opacity: 0;
+  z-index: -1;
   box-shadow: 0 0 0 1px #fff;
   transition: all 0.2s ease-in-out;
 }
@@ -1262,6 +1277,314 @@ body > .seventh .text h1 span:last-child {
 
 footer {
   color: white;
+  position: relative;
+}
+footer p {
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: "roboto";
+}
+footer > span {
+  font-size: 7rem;
+  position: absolute;
+  z-index: -1;
+}
+footer > span:first-child {
+  top: 21%;
+  right: 10%;
+}
+footer > span:nth-child(2) {
+  top: 5%;
+  left: 5%;
+}
+footer .top {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .top .text {
+  text-align: center;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+footer .top .text h3 {
+  font-size: 2rem;
+  color: grey;
+}
+footer .top .text h1 {
+  font-size: 7rem;
+}
+footer .top .text h1 span {
+  color: var(--Fre_yellow);
+}
+footer .top .text h1 span:nth-child(1) {
+  color: var(--Fre_yellow);
+}
+footer .top .text h1 span:nth-child(5) {
+  color: var(--orange);
+}
+footer .top .text h1 span:nth-child(3) {
+  font-size: 3rem;
+  color: white;
+  background-color: rgba(48, 48, 48, 0.2745098039);
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer .bottom {
+  min-height: 100vh;
+}
+footer .bottom #ani_mani {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+footer .bottom .container {
+  width: 100%;
+  min-height: 100vh;
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .bottom .container .box {
+  width: 580px;
+  height: 500px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+footer .bottom .container .box .title {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45%;
+  min-height: 80px;
+}
+footer .bottom .container .box .title .block {
+  width: 0%;
+  height: inherit;
+  background: #ffb510;
+  position: absolute;
+  -webkit-animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+          animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+  display: flex;
+}
+footer .bottom .container .box .title h1 {
+  font-family: "Space Grotesk", sans-serif;
+  color: #fff;
+  font-size: 8.5rem;
+  -webkit-animation: mainFadeIn 1s forwards;
+  animation: mainFadeIn 1s forwards;
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+  opacity: 0;
+  display: flex;
+  align-items: baseline;
+  position: relative;
+}
+footer .bottom .container .box .title h1 span {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  background: #ffb510;
+  -webkit-animation: load 0.6s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+  animation: popIn 2.2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  margin-left: 5px;
+  margin-top: -10px;
+  position: absolute;
+  bottom: 13px;
+  right: -12px;
+}
+footer .bottom .container .box .role {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+footer .bottom .container .box .role .block {
+  width: 0%;
+  height: inherit;
+  background: rgb(216, 3, 106);
+  position: absolute;
+  -webkit-animation: secBlock 1s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+          animation: secBlock 1s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  display: flex;
+}
+footer .bottom .container .box .role h1 {
+  -webkit-animation: secFadeIn 2s forwards;
+          animation: secFadeIn 2s forwards;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+  opacity: 0;
+  font-weight: 400;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  color: #ffffff;
+  font-size: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+@-webkit-keyframes mainBlock {
+  0% {
+    width: 0%;
+    left: 0;
+  }
+  50% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+@keyframes mainBlock {
+  0% {
+    width: 0%;
+    left: 0;
+  }
+  50% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+@-webkit-keyframes secBlock {
+  0% {
+    width: 0%;
+    left: 0;
+  }
+  50% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+@keyframes secBlock {
+  0% {
+    width: 0%;
+    left: 0;
+  }
+  50% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+@-webkit-keyframes mainFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes mainFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes popIn {
+  0% {
+    width: 0px;
+    height: 0px;
+    background: #e9d856;
+    border: 0px solid #ddd;
+    opacity: 0;
+  }
+  50% {
+    width: 10px;
+    height: 10px;
+    background: #e9d856;
+    opacity: 1;
+    bottom: 45px;
+  }
+  65% {
+    width: 7px;
+    height: 7px;
+    bottom: 0px;
+    width: 15px;
+  }
+  80% {
+    width: 10px;
+    height: 10px;
+    bottom: 20px;
+  }
+  100% {
+    width: 7px;
+    height: 7px;
+    background: #e9d856;
+    border: 0px solid #222;
+    bottom: 13px;
+  }
+}
+@keyframes popIn {
+  0% {
+    width: 0px;
+    height: 0px;
+    background: #e9d856;
+    border: 0px solid #ddd;
+    opacity: 0;
+  }
+  50% {
+    width: 10px;
+    height: 10px;
+    background: #e9d856;
+    opacity: 1;
+    bottom: 45px;
+  }
+  65% {
+    width: 7px;
+    height: 7px;
+    bottom: 0px;
+    width: 15px;
+  }
+  80% {
+    width: 10px;
+    height: 10px;
+    bottom: 20px;
+  }
+  100% {
+    width: 7px;
+    height: 7px;
+    background: #e9d856;
+    border: 0px solid #222;
+    bottom: 13px;
+  }
+}
+@-webkit-keyframes secFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+@keyframes secFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
 }
 
 /* making img repsonsive */
@@ -1454,6 +1777,36 @@ body .seventh .text .rect2 {
   body .aboutpage .text h1 {
     font-size: 140%;
   }
+  body > .third_page .page .left_txt {
+    min-height: -webkit-max-content;
+    min-height: -moz-max-content;
+    min-height: max-content;
+  }
+  footer .bottom .container .box .title {
+    height: 60px;
+  }
+  footer .bottom .container .box .title h1 {
+    font-size: 14vw;
+  }
+  .extenedpage h1 {
+    font-size: 10vw;
+  }
+  footer .bottom .container .box .role {
+    justify-content: center;
+  }
+  footer .bottom .container .box .role h1 {
+    font-size: 10vw;
+    text-align: center;
+  }
+  footer .top .text h1 {
+    font-size: 11vw;
+  }
+  footer .top .text h1 span:nth-child(3) {
+    font-size: 1.9rem;
+  }
+  footer > span {
+    font-size: 15vw;
+  }
 }
 @media only screen and (orientation: landscape) {
   body .landing_page {
@@ -1481,5 +1834,72 @@ body .seventh .text .rect2 {
   body > .second_page .fr_text {
     font-size: 5rem;
     padding: 0px 0px 0px 10px;
+  }
+  body .landing_page {
+    min-height: calc(100vh - 65px);
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  body .landing_page .texts {
+    margin-bottom: 30px;
+  }
+  body > .third_page .page .left_txt {
+    min-height: 650px;
+  }
+  body .skills .text {
+    width: 100%;
+  }
+  body .skills .text > h2,
+body .skills .text h3 {
+    font-size: 4rem;
+  }
+  body .skills .text p {
+    font-size: 7rem;
+  }
+  body .skills .text p span {
+    font-size: 8rem;
+  }
+  body .skills .skills_bar h1 {
+    font-size: 3rem;
+  }
+  .Projects_page > a {
+    width: 190px;
+  }
+  body .aboutpage .text {
+    width: 100%;
+    min-height: 730px;
+  }
+  .contact .text h1 {
+    font-size: 9rem;
+  }
+  .contact .form {
+    width: 100%;
+  }
+  .contact .form h1 {
+    font-size: 5rem;
+  }
+  .contact .form h2 {
+    font-size: 2.7rem;
+  }
+  .contact .form form input {
+    width: 70%;
+    height: 100px;
+    font-size: 2rem;
+    margin: 15px 0px;
+  }
+  .contact .form form textarea {
+    width: 80%;
+    font-size: 2rem;
+  }
+  .contact .form form button {
+    font-size: 2rem;
+    margin: 20px;
+  }
+  footer .bottom .container {
+    width: 100vw;
+  }
+  footer .bottom .container .box .title h1 {
+    margin-bottom: 60px;
   }
 }/*# sourceMappingURL=style.css.map */
